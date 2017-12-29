@@ -24,8 +24,3 @@
 \newcommand{\copyleft}[2]{\begin{flushleft}\textbf{Copyright (C) \years{#1}{\the\year} \quad #2.}\end{flushleft}}
 
 \def\years#1#2{\ifnum #1>#2 #2 - #1 \else \ifnum #1=#2 #1 \else #1 - #2 \fi \fi}
-
-\newcommand{\wbalTwo}[2] {
-    This is the Wikibook about LaTeX
-    supported by #1 and #2}
-
